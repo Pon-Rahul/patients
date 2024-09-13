@@ -1,0 +1,13 @@
+@media (min-width: 651px) and (max-width: 1024px) {
+  .set {
+    position: relative;
+    top: 120px;
+  }
+}
+
+@media (max-width: 650px){
+  .set{
+    position: relative;
+    top: 80px;
+  }
+}

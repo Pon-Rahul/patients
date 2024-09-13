@@ -1,0 +1,39 @@
+.profile_header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: white;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_title {
+  color: #00b8a9;
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 24px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  padding-right: 24px;
+  gap: 16px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.profile_header_pic {
+  height: 60px;
+  width: 60px;
+  color: gray;
+}
+
+.notification {
+  width: 24px;
+  height: 24px;
+  color: gray;
+}

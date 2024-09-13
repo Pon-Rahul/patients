@@ -1,0 +1,26 @@
+.insights_chart {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 200px;
+  padding: 12px;
+  background: white;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+@media (min-width: 651px) and (max-width: 1024px) {
+  .insights_chart {
+    position: absolute;
+    top: 120px;
+  }
+}
+
+@media (max-width: 650px) {
+  .insights_chart {
+    position: absolute;
+    top: 120px;
+    width: 333px;
+  }
+}

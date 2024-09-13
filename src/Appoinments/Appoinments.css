@@ -1,0 +1,28 @@
+.appoinments {
+  border: #f6f6f6;
+  background-color: white;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.whole {
+  margin-left: 60px;
+}
+
+@media (min-width: 651px) and (max-width: 1024px) {
+  .appoinments {
+    position: absolute;
+    top: 120px;
+    padding: 0;
+    right: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .whole {
+    margin-left: 16px;
+  }
+}

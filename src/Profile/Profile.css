@@ -1,0 +1,365 @@
+.profile_page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-left: 28px;
+}
+.quick {
+  height: 200px;
+  background-color: white;
+  padding: 16px;
+  flex: 3;
+  border-radius: 8px;
+}
+
+.upcomming_appoinment {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 16px;
+  flex: 2;
+  border-radius: 8px;
+}
+
+.top_box {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+.health_insights {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+  color: #5a6268;
+  padding-left: 8px;
+}
+
+.recent_activity {
+  background-color: white;
+  margin-bottom: 60px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 8px;
+}
+
+.welcome {
+  color: #5a6268;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.appoinment {
+  color: #5a6268;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.doctor {
+  color: #5a6268;
+  font-weight: 600;
+}
+
+.designation {
+  font-size: 14px;
+  color: gray;
+}
+
+.time {
+  color: #00b8a9;
+  font-size: 14px;
+}
+
+.button-12 {
+  appearance: none;
+  background-color: #00b8a9;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 4px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-12:hover {
+  background-color: #00b8a9;
+}
+
+.quick_action {
+  color: #5a6268;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.quick_flex {
+  display: flex;
+}
+
+.options {
+  background: #f8f9fa;
+  padding: 12px 72px 12px 9px;
+  width: 75%;
+  color: black;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: color 0.3s ease;
+}
+
+.options:hover {
+  color: white; /* Change text color to white on hover */
+}
+
+.option_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 1;
+}
+
+.blood_test {
+  color: #5a6268;
+  font-weight: 600;
+  padding: 4px 0;
+}
+
+.ago {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: gray;
+  padding: 2px 0;
+}
+
+.detail {
+  border-bottom: 1px solid rgb(203 203 203);
+  padding: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.insights {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.insights_box {
+  display: flex;
+  border: 1px solid #f6f6f6;
+  width: 360px;
+  height: 166px;
+  flex-wrap: nowrap;
+  background: white;
+  justify-content: space-between;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 0 16px;
+}
+
+.insights_box_content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.todoz {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.insights_topic {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+}
+
+.insights_count {
+  font-size: 14px;
+  color: gray;
+}
+
+.insights_icon {
+  height: 20px;
+  width: 20px;
+  color: rgb(0, 184, 169);
+  margin-top: 24px;
+}
+
+.kg {
+  font-size: 16px;
+  color: gray;
+}
+
+.upcomming_content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile_counter {
+  width: 60px;
+  height: 60px;
+  color: gray;
+}
+
+.color {
+  width: 28px;
+  height: 40px;
+  border: 1px solid rgb(0, 184, 169);
+  background: rgb(0, 184, 169);
+  border-radius: 30px;
+}
+
+/* Breakpoint for minWidth: 651px and maxWidth: 1024px */
+@media (min-width: 651px) and (max-width: 1024px) {
+  .profile_page {
+    padding-left: 4px;
+  }
+
+  .quick {
+    height: 180px;
+  }
+
+  .upcomming_appoinment {
+    width: 350px;
+    height: 180px;
+  }
+
+  .welcome {
+    font-size: 1.5rem;
+  }
+
+  .options {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 9px 12px 0px;
+  }
+
+  .quick_flex {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .button-12 {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .insights_box {
+    width: 200px;
+    height: 140px;
+  }
+
+  .insights_box_content .insights_topic {
+    font-size: 18px;
+  }
+}
+
+/* Breakpoint for maxWidth: 650px (Mobile) */
+@media (max-width: 650px) {
+  .profile_page {
+    padding-left: 8px;
+    gap: 20px;
+  }
+
+  .top_box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .quick {
+    height: auto;
+  }
+  .insights_box_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .upcomming_appoinment {
+    width: 90%;
+    height: auto;
+    gap: 12px;
+  }
+
+  .welcome {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .options {
+    padding: 8px 4px;
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .todoz {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  .button-12 {
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .insights_box {
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 12px;
+  }
+
+  .insights_box_content .insights_topic {
+    font-size: 16px;
+  }
+
+  .insights_box_content .view_number {
+    font-size: 18px;
+  }
+
+  .detail {
+    padding: 4px;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,16 @@
+.appo {
+    border: #f6f6f6;
+    background-color: white;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px){
+    .appo{
+        position: relative;
+        top: 80px;
+    }
+}

@@ -1,0 +1,354 @@
+.dashboard {
+  background: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 36px;
+}
+
+.view_box {
+  display: flex;
+  border: 1px solid #f6f6f6;
+  width: 200px;
+  height: 166px;
+  flex-wrap: nowrap;
+  background: white;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+
+.view_box_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.todos {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.view_topic {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+}
+
+.view_count {
+  font-size: 14px;
+  color: gray;
+}
+
+.view_number {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.upcomming {
+  border: #f6f6f6;
+  background-color: white;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  width: 88%;
+  height: 200px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.upcoming_title {
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 0 20px;
+}
+
+.up_title {
+  display: flex;
+  background: #f6f6f6;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 8px;
+  font-size: 12px;
+  color: #727272;
+  font-weight: 500;
+}
+
+.details {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 20px 8px;
+}
+
+.flex_box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.insights {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 200px;
+  padding: 12px;
+  background: white;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.patient_insights {
+  font-size: 20px;
+  color: gray;
+  font-weight: 600;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 200px;
+  padding: 12px;
+  background: white;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+#score-bar-container {
+  width: 80%;
+  height: 10px;
+  max-width: 500px;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+}
+
+#score-bar {
+  height: 10px;
+  width: 60%;
+  background-color: #00b8a9;
+  border-radius: 5px;
+}
+
+#score-bar-one {
+  height: 10px;
+  width: 40%;
+  background-color: rgb(255, 188, 126);
+  border-radius: 5px;
+}
+
+.view_details {
+  font-size: 14px;
+  color: #00b8a9;
+  font-weight: 600;
+}
+
+.view_upcomming {
+  font-size: 12px;
+  font-weight: 600;
+  color: chocolate;
+  background: #ffdfbb;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: 20px;
+}
+
+.view_video_call {
+  font-size: 12px;
+  font-weight: 600;
+  color: green;
+  background: #e0ffd1;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: 20px;
+}
+
+.view_time {
+  font-size: 14px;
+  color: gray;
+}
+
+.view_age {
+  font-size: 14px;
+  color: gray;
+}
+
+.percent {
+  font-size: 14px;
+  color: gray;
+}
+
+.view_name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.task_title {
+  font-size: 20px;
+  color: gray;
+  font-weight: 600;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 16px;
+  color: gray;
+}
+
+@media (min-width: 651px) and (max-width: 1024px) {
+  .dashboard{
+    position: relative;
+    top: 120px;
+  }
+
+  .todos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .view_box {
+    width: 150px;
+    height: 140px;
+    padding: 0 12px;
+  }
+
+  .view_topic {
+    font-size: 18px;
+  }
+
+  .view_number {
+    font-size: 20px;
+  }
+
+  .view_box_content {
+    gap: 6px;
+  }
+
+  .upcomming {
+    width: 95%;
+    padding: 12px;
+  }
+
+  .up_title, .details {
+    font-size: 11px;
+  }
+
+  .flex_box {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .insights, .tasks {
+    width: 100%;
+    height: auto;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .dashboard{
+    position: relative;
+    top: 80px;
+  }
+
+  .todos {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .view_box {
+    width: 92%;
+    height: auto;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .view_box_content {
+    align-items: flex-start;
+  }
+
+  .view_topic {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .view_number {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .upcomming {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .up_title, .details {
+    display: flex;
+    font-size: 10px;
+  }
+
+  .flex_box {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .insights, .tasks {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .stats {
+    justify-content: center;
+  }
+
+  .task_title, .patient_insights {
+    text-align: center;
+    font-size: 18px;
+  }
+  .view_name{
+    font-size: 12px;
+  }
+  .view_age{
+    font-size: 10px;
+  }
+  .view_time{
+    font-size: 12px;
+  }
+  .view_video_call{
+    font-size: 10px;
+  }
+  .view_upcomming{
+    font-size: 10px;
+  }
+  .view_details{
+    font-size: 12px;
+  }
+}

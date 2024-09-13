@@ -1,0 +1,56 @@
+.sidebar {
+  background: #ffffff;
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 11;
+}
+
+.sidebar .content p {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 4px;
+}
+
+.sidebar .content p:hover {
+  background-color: lightgray;
+  border-radius: 8px 0 0 8px;
+}
+
+.sidebar .content p.active {
+  background-color: rgb(63, 63, 63);
+  color: white;
+  border-radius: 8px 0 0 8px;
+}
+
+.logo {
+  padding: 0.5rem 2rem 3rem 1rem;
+  color: #00b8a9;
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.menuItem {
+  display: flex;
+  padding: 0 2rem;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  background-color: #006aec11;
+  color: #006cec;
+}
+
+.menuItem p {
+  color: #919191;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: 17px;
+  color: gray;
+  padding-left: 8px;
+}
