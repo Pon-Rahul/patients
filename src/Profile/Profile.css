@@ -119,6 +119,7 @@
 
 .quick_flex {
   display: flex;
+  gap: 12px;
 }
 
 .options {
