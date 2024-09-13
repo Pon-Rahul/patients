@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Dashboard from "../DashBoard/DashBoard";
 import DefaultLayout from "./DefaultLayout";
 import Main from "../MainScreen/MainScreen";
@@ -13,6 +13,7 @@ import Settings from "../Settings/Settings";
 const Root = () => {
     return(
         <Routes>
+        <Route path="/" element={<Navigate to="/dashboard" />} />
         <Route path="/dashboard" element={<DefaultLayout component={Dashboard} layout={Main} />} />
         <Route path="/appointments" element={<DefaultLayout component={Appointments} layout={Main} />} />
         <Route path="/patients" element={<DefaultLayout component={Patients} layout={Main} />} />
